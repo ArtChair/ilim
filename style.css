@@ -95,10 +95,6 @@ body {
     border: 1px solid rgb(216, 216, 216);
 
 }
-.plane1 {
-    margin: 0 auto;
-    width: 100%;
-}
 
 .plane--text {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -181,7 +177,12 @@ body {
     transform: rotate(1deg);
 }
 
-.perspective--title {
+.perspective__title {
     text-align: center;
     margin-top: 30px;
+    font-size: 40px;
+}
+.img__plane1 {
+    /* margin: 0 auto; */
+    /* width: 100%; */
 }
