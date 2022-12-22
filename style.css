@@ -119,13 +119,14 @@ body {
 
 .proekt {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 .programm {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 500px;
+    margin: 0 auto;
     width: 360px;
     /* margin: 10px auto; */
     border-radius: 4px;
@@ -133,9 +134,6 @@ body {
     -webkit-transition: 400ms ease;
 }
 .girl {
-    /* background-image: url('img/girl.jpg'); */
-    /* background-repeat: no-repeat; */
-    /* background-size:  cover; */
     background:  linear-gradient(rgba(216, 216, 216, 0.2), rgba(34, 34, 34, 0.6)), url(img/girl.jpg);
     background-size: cover;
 }
